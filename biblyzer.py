@@ -347,14 +347,7 @@ app.layout = dbc.Container(style={'background-image':'url(https://wallpaperacces
                       config= {'displaylogo': False})
             ], style={'textAlign':'left', 'margin-top':20})
             ], width={'size': 5, 'offset': 0, 'order': 1}),  # width first column on second row
-            # dbc.Col([  # second column on second row
-            # html.H4('Sentiment Ratio', className='text-center'),
-            # dcc.Graph(id='piechart',
-            # figure=piechart(),
-            # style={'height':350},
-            # config= {'displaylogo': False})
-            # ], width={'size': 3, 'offset': 0, 'order': 2}),  # width second column on second row
-            dbc.Col([  # third column on second row
+            dbc.Col([  # second column on second row
             html.Div([
             html.H4('Sentiment Ratio', className='text-center'),    
             dcc.Graph(id='piechart',
@@ -390,7 +383,7 @@ app.layout = dbc.Container(style={'background-image':'url(https://wallpaperacces
             ], style={'width': '49%', 'display': 'inline-block', 'textAlign':'center', 'margin-top': 30})
 
             
-            ], width={'size': 7, 'offset': 0, 'order': 2}),  # width third column on second row
+            ], width={'size': 7, 'offset': 0, 'order': 2}),  # width second column on second row
 
         ]),  # end of second row
 
