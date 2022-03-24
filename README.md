@@ -1,7 +1,7 @@
 # Biblyzer
 
 ## Introduction
-As a text mining project, I have made use of NLP techniques - namely Sentiment Analysis and Named Entity Recognition - to help give an overview of the sentiment and entities of the Bible. The data used is the King James Version of the Bible, which I obtained from Kaggle at https://www.kaggle.com/phyred23/bibleverses.
+As a text mining project, I have made use of NLP techniques - namely Sentiment Analysis and Named Entity Recognition - to help give an overview of the sentiment and entities of the Bible. The data used is the King James Version of the Bible, which I obtained from [Kaggle](https://www.kaggle.com/phyred23/bibleverses).
 
 ## Screenshot
 ![initial](BiblyzerScreenshot.png)
